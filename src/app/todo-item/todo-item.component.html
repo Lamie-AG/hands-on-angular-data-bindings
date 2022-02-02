@@ -1,0 +1,6 @@
+<div>
+    <input type="checkbox" id="checkbox" [(ngModel)]="checked">
+    <input type="text" [(ngModel)]="text" id="text"> 
+    <!-- Note that we can also do string interpolations {{...}} -->
+    <b> Bindings: </b>{{ checked ? "Checked." : "Not checked."}} - {{ text }}
+</div>
